@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#article-content h1,
+#article-content h2,
+#article-content h3 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#article-content h1 {
+  font-size: 2.25rem; /* Larger for h1 */
+}
+
+#article-content h2 {
+  font-size: 1.75rem; /* Smaller for h2 */
+}
+
+#article-content h3 {
+  font-size: 1.5rem; /* Even smaller for h3 */
+}
